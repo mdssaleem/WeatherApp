@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hd" translatesAutoresizingMaskIntoConstraints="NO" id="qzE-h4-WrP">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-sun-96" translatesAutoresizingMaskIntoConstraints="NO" id="IoS-pI-u2a">
+                                <rect key="frame" x="143" y="293" width="128" height="129"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IoS-pI-u2a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="FaG-g5-yOI"/>
+                            <constraint firstItem="IoS-pI-u2a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="249" id="NO6-1m-I1v"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IoS-pI-u2a" secondAttribute="bottom" constant="440" id="SXc-Nd-Een"/>
+                            <constraint firstItem="qzE-h4-WrP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cCe-iG-ppR"/>
+                            <constraint firstItem="qzE-h4-WrP" firstAttribute="centerX" secondItem="IoS-pI-u2a" secondAttribute="centerX" id="lDs-N1-24a"/>
+                            <constraint firstItem="qzE-h4-WrP" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="mws-q7-tzF"/>
+                            <constraint firstItem="qzE-h4-WrP" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nt4-F4-0SF"/>
+                            <constraint firstItem="qzE-h4-WrP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wUG-GC-HqT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hd" width="282" height="581"/>
+        <image name="icons8-sun-96" width="96" height="96"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
