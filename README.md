@@ -1,5 +1,5 @@
 ## Weather Forecast App
-Welcome to the Weather Forecast App! This project is a simple iOS application built with Swift that displays weather forecast information for a city.
+Welcome to the Weather Forecast App! This project is a simple iOS application built with Swift that displays weather forecast information for any location.
 
 ## Project Goals
 The goal of this challenge is to:
